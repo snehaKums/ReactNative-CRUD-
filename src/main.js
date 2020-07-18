@@ -49,7 +49,7 @@ class Register extends Component{
         email:'string',
         currentLongitude: 'string',//Initial Longitude
         currentLatitude: 'string',
-        photo:'string',
+        //photo:'string',
       }}]
     });
  
@@ -411,7 +411,7 @@ class Detail extends Component{
           <Text>{'Longitude: ' + this.state.longitude}</Text>
           <TouchableOpacity  activeOpacity={0.7} style={styles.button} onPress={this.Delete_Employee} >
  
-            <Text style={styles.TextStyle}> CLICK HERE TO DELETE CURRENT RECORD </Text>
+            <Text style={styles.TextStyle}>DELETE EMPLOYEE</Text>
  
           </TouchableOpacity>
              
